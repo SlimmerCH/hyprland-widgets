@@ -24,16 +24,17 @@ window.Bar {
   }
 
   .MenuButtons, .Tray {
-    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow:
+      rgba(255, 255, 255, 0.05) 0px 6px 24px 0px,
+      rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+    background-color: rgba(107, 107, 107, 0.11);
+    backdrop-filter: blur(2px); // because ags is retarded
+
     color: #fff;
-    border: #111111 1px solid;
-    border-top-color: #1c1c1c;
     border-radius: 20px;
     padding: 4px;
     font-weight: 400;
     font-size: 12px;
-
-    
 
     .toggle-powermenu {
       > button {

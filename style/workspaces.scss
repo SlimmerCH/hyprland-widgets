@@ -1,7 +1,8 @@
 .workspaces {
-    border: 1px rgba(35, 35, 35, 0.9) solid;
-    border-top: 1px #1f1f1f solid;
-    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow:
+      rgba(255, 255, 255, 0.05) 0px 6px 24px 0px,
+      rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+    background-color: rgba(107, 107, 107, 0.11);
     color: #fff;
     // border: #141414 1px solid;
     border-radius: 20px;
